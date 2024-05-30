@@ -1,0 +1,14 @@
+H1{
+    color: brown;
+}
+.fondonaranja {
+    background-color: orangered !important;
+}
+.textoazul {
+    color: blue;
+}
+
+.col{
+    background-color: grey;
+    border: 1px solid black;
+}

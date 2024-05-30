@@ -1,0 +1,57 @@
+.Container {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: grid;
+    grid-template-areas: 
+    "header header header header"
+    "nav nav nav nav"
+    "main main main aside"
+    "footer footer footer footer";
+    background-color: antiquewhite;
+    grid-template-columns: 1fr 1fr 1fr 1px;
+    grid-template-rows: 100px 100px 1fr 30px;
+    height: 100vh;
+}
+
+.header {
+    background-color: rgb(26, 60, 33);
+    grid-area: header;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10%;
+}
+
+.nav{
+    background-color: greenyellow;
+    grid-area: nav;
+}
+
+
+.main {
+    background-color: rgb(25, 123, 220);
+    grid-area: main;
+}
+
+.footer {
+    background-color: blueviolet;
+    grid-area: footer;
+}
+
+.list {
+    display: flex;
+    color: aliceblue;
+}
+.aside {
+    background-color: crimson;
+    grid-area: aside;
+}
+
+.logo{
+    background-color: rgb(26, 60, 33);
+    cursor: pointer;
+}
+.logo :hover {
+    scale: (1,2);
+}
